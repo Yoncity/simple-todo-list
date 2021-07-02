@@ -1,0 +1,38 @@
+$red: #f44336;
+
+.add_task_input_container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  padding: 15px 5px 5px 5px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px 10px 0 0;
+  .add_task_input_container__input_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 10px;
+    .add_task_input_container__input_container__add_task_field {
+      flex: 1;
+    }
+    .add_task_input_container__input_container__priorities {
+      margin: 0 10px 0 0;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  }
+  .add_task_input_container__error_container {
+    display: flex;
+    margin: 10px 15px;
+    p {
+      color: $red;
+    }
+    .add_task_input_container__icon {
+      color: $red;
+    }
+  }
+}

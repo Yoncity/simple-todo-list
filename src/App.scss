@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  height: 100vh;
+  .wave-image {
+    position: absolute;
+    z-index: -1;
+  }
+}
