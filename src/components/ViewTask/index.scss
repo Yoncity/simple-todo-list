@@ -16,7 +16,8 @@
       border-radius: 10px;
       &:hover {
         .icon {
-          display: flex;
+          // display: flex;
+          opacity: 1;
         }
         background: #eee;
         cursor: pointer;
@@ -47,7 +48,8 @@
         }
       }
       .view_container__view_task_container__icon {
-        display: none;
+        // display: none;
+        opacity: 0;
         color: #aaa;
         &:hover {
           color: #f44336;

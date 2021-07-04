@@ -74,6 +74,7 @@ const AddTask = () => {
             type="text"
             labelText="Enter a new task."
             name="task"
+            formId="addTaskFieldInput"
             onChange={handleTaskChange}
             value={newTask}
           />
