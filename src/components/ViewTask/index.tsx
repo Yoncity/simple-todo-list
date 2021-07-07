@@ -68,13 +68,13 @@ const ViewTask = () => {
         key={i}
       >
         <img
-          className="view_container__view_task_container__task_priority"
+          className="view_container__view_task_container__task_container__task_priority"
           alt="priority icon"
           src={setColor(t.priority, t.completed)}
         />
-        <div className="view_container__view_task_container__task_details_container">
+        <div className="view_container__view_task_container__task_container__task_details_container">
           <p
-            className={`view_container__view_task_container__task_details_container__task ${status(
+            className={`view_container__view_task_container__task_container__task_details_container__task ${status(
               t.completed,
               1
             )}`}
@@ -82,7 +82,7 @@ const ViewTask = () => {
             {t.task}
           </p>
           <p
-            className={`view_container__view_task_container__task_details_container__time-elapsed ${status(
+            className={`view_container__view_task_container__task_container__task_details_container__time_elapsed ${status(
               t.completed,
               2
             )}`}
@@ -94,7 +94,7 @@ const ViewTask = () => {
           <Icon
             name="close"
             size="large"
-            className={`view_container__view_task_container__icon ${status(
+            className={`view_container__view_task_container__close_task_icon ${status(
               t.completed,
               3
             )}`}
