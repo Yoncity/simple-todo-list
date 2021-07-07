@@ -58,7 +58,7 @@ describe("Renders HomePage", () => {
     describe("Should Cross/Remove Tasks", () => {
       it("Should cross a task", () => {
         cy.get(
-          ":nth-child(1) > .view_container__view_task_container__task_details_container > .view_container__view_task_container__task_details_container__task"
+          ":nth-child(1) > .view_container__view_task_container__task_container__task_info"
         ).click();
 
         cy.window()

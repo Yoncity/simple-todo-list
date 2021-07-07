@@ -57,7 +57,7 @@ const AddTask = () => {
           <Icon
             name="warning"
             size="large"
-            className="add_task_input_container__icon"
+            className="add_task_input_container__error_container__icon"
           />
           <p>You can't add empty goals to the list.</p>
         </div>
