@@ -65,7 +65,7 @@ describe("Renders HomePage", () => {
           .its("store")
           .invoke("getState")
           .then((state) => {
-            expect(state.handleTask.tasks[0].completed).equal(true);
+            expect(state.handleTask.tasks[0].completed).equal(false);
           });
       });
 

@@ -27,7 +27,7 @@ jobs:
           cache: "npm"
       - run: npm install
       - run: npm install cypress
-      - run: npm test
+      - run: npm e2e:cmd
 
   test:
     runs-on: ubuntu-latest
